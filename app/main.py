@@ -22,7 +22,7 @@ class IntegerRange:
         if not isinstance(value, int):
             raise TypeError
 
-        if not (self.min_amount <= value <= self.max_value):
+        if not (self.min_amount <= value <= self.max_amount):
             raise ValueError
 
         setattr(instance, self.protected_name, value)
