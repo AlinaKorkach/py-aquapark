@@ -9,7 +9,7 @@ class IntegerRange:
             max_amount: int
     ) -> None:
         self.min_amount = min_amount
-        self.max_value = max_amount
+        self.max_amount = max_amount
 
     def __set_name__(self, owner: Any, name: str) -> None:
         self.public_name = name
